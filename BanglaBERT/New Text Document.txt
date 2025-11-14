@@ -1,0 +1,5 @@
+git clone https://github.com/csebuetnlp/banglabert
+cd banglabert/
+conda create python==3.7.9 pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch -p ./env
+conda activate ./env # or source activate ./env (for older versions of anaconda)
+bash setup.sh 
